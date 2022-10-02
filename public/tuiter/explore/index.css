@@ -1,0 +1,18 @@
+p {
+    wd-bg-color-black: black;
+    border-color: rgb(47, 51, 54);
+    padding-left: 16px;
+
+}
+
+
+/*.wd-bg-color-black {
+    background-color: black;
+}
+.wd-border-color {
+    border-color: rgb(47, 51, 54); }
+
+.wd-padding {
+    padding-left: 16px;
+}
+*/
