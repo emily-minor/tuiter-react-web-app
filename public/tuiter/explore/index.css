@@ -1,18 +1,37 @@
-p {
-    wd-bg-color-black: black;
-    border-color: rgb(47, 51, 54);
-    padding-left: 16px;
+html {background-color: black}
 
-}
-
-
-/*.wd-bg-color-black {
-    background-color: black;
-}
 .wd-border-color {
     border-color: rgb(47, 51, 54); }
 
 .wd-padding {
     padding-left: 16px;
 }
-*/
+.wd-searchBar {
+    background-color: RGB(47, 51, 54);
+    color: darkgray;
+    padding-left: 60px;
+    padding-right: 800px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.wd-searchButton {
+    position: absolute;
+    top: 15px;
+    left: 110px;
+    width: 30px;
+    height: 30px;
+}
+
+.wd-searchGear {
+    position: absolute;
+    top: 7px;
+    right: 133px;
+    width: 30px;
+    height: 30px;
+}
