@@ -1,0 +1,21 @@
+.wd-margins {
+    padding: 20px;
+}
+
+.wd-margins-right {
+    margin-right: 16px;
+}
+
+.wd-margins-top {
+    margin-top: 16px;
+}
+
+.wd-override-tuit-button {
+    margin-top: 8px;
+    border-radius: 48px;
+
+}
+
+.wd-font-dimgray {
+    color: rgb(61,61,61);
+}
