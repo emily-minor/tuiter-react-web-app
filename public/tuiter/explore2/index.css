@@ -38,6 +38,18 @@
 
 }
 
+.wd-font-story {
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.wd-font-story-category {
+    font-size: 14px;
+    color: dimgray;
+
+}
+
 .wd-font-username {
     font-size: 12px;
 }
@@ -45,4 +57,95 @@
 .wd-float-left {
     float: left;
 }
+.wd-float-right {
+    float: right;
+}
+.wd-searchBar {
+    color: rgb(61,61,61);
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 35%;
+    border-radius: 50px;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    position: absolute;
+    /*border-image-width: 1px;*/
+    border-color: darkgray;
+    border-style: solid;
+    border-width: 1px;
+    background-image: url(https://www.citypng.com/public/uploads/small/11640084027eqwauegwzmhrbniaualprqoe4jj2jguwobj2t6vnixim3yf2w8xzbb5jdksvrcemxwzv9ncnqzadnjtmwf6eqpadmrmarzhefgxf.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: 2% 40%;
+}
 
+.wd-nudge-down {
+    margin-top: 10px;
+}
+
+.wd-font-blue {
+    color: dodgerblue;
+}
+
+.wd-border-active {
+    border-top: darkgray;
+    border-left: darkgray;
+    border-right: darkgray;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.wd-border-inactive {
+    border-bottom: darkgray;
+    border-bottom-style: solid;
+    border-width: 1px;
+
+}
+
+.wd-vertically-centered {
+    vertical-align: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 36px;
+}
+
+.wd-nudge-left {
+    right:24px;
+}
+
+.wd-nudge-right {
+    left:24px;
+}
+
+.wd-story-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-left: 5px;
+}
+
+.wd-card-img-larger {
+    width: 104.5%;
+    right: 25px;
+    margin-top: 5px;
+}
+
+.wd-align {
+    text-align: left;
+    overflow: hidden;
+}

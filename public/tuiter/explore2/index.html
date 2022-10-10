@@ -11,7 +11,7 @@
 <body class="wd-margins">
 <div class="row">
 <!--    FIRST ROW-->
-    <div class="col-2 bg-warning">
+    <div class="col-2">
         <div class="list-group rounded">
             <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
                 <i class="fab fa-twitter" style="color: rgb(61,61,61)"></i></a>
@@ -37,16 +37,100 @@
         </div>
     </div>
 <!--    SECOND ROW     -->
-    <div class="col-5 bg-success text-white">
-        <h3>One thirds</h3>
+<!--    Searchbar-->
+    <div class="col-5">
+        <div>
+            <input class="wd-searchBar"
+                   type="text"
+                   placeholder="Search Tuiter"
+                   id="text-fields-search"/>
+            <h3><a href="#"><i class="fa-cog fa wd-float-right wd-nudge-down" style="color:dodgerblue"></i></a></h3>
+        </div>
+        <br> <br> <br>
+        <div class="t">
+            <ul class="nav nav-pills">
+                <li class="nav-item wd-border-active">
+                    <a class="nav-link wd-font-dimgray" href="#">For You</a>
+                </li>
+                <li class="nav-item wd-border-inactive">
+                    <a class="nav-link wd-font-blue" href="#"> Trending </a>
+                </li>
+                <li class="nav-item wd-border-inactive">
+                    <a class="nav-link wd-font-blue" href="#"> News</a>
+                </li>
+                <li class="nav-item wd-border-inactive">
+                    <a class="nav-link wd-font-blue" href="#"> Sports</a>
+                </li>
+                <li class="nav-item wd-border-inactive">
+                    <a class="nav-link wd-font-blue" href="#"> Entertainment</a>
+                </li>
+            </ul>
+        </div>
+        <div class="">
+            <div class="wd-card-img-larger container">
+                <img src="../../tuiter/images/starship.webp"
+                     class="card-img-top wd-card-img-larger" alt="...">
+                <div class="bottom-left">
+                    <h5 class="card-title text-white">SpaceX's Starship</h5>
+                </div>
+            </div>
+        </div>
+        <div class="list-group rounded">
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <img src="../../tuiter/images/reactlogo.png"
+                     class="wd-float-right wd-story-image" alt="...">
+                <div class="wd-align">
+                    <label class="wd-font-story-category"> Web Development </label><br>
+                    <label class="wd-font-story"> ReactJS <i class="fa-check-circle fa" style="color: rgb(61,61,61)"></i></label>
+                        <label class="wd-font-story-category">- 2h</label><br>
+                    <label class="wd-font-story"> React.js is a component based front end library that makes it very easy to build
+                    Single Page Applications or SPAs. </label>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <img src="../../tuiter/images/javascript-logo.png"
+                     class="wd-float-right wd-story-image" alt="...">
+                <div class="wd-align">
+                    <label class="wd-font-story"> Javascript <i class="fa-check-circle fa" style="color: rgb(61,61,61)"></i></label>
+                    <label class="wd-font-story-category">- 2h</label><br>
+                    <label class="wd-font-story"> Javascript is a programming language that can run on browsers as well as desktops. </label> <br>
+                    <label class="wd-font-story-category"> 123K Tuits </label>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <img src="../../tuiter/images/jquery-logo.png"
+                     class="wd-float-right wd-story-image" alt="...">
+                <div class="wd-align">
+                    <label class="wd-font-story-category">Web Development </label><br>
+                    <label class="wd-font-story"> jQuery </label> <br>
+                    <label class="wd-font-story-category"> 123K Tuits </label>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <img src="../../tuiter/images/nodejs-logo.webp"
+                     class="wd-float-right wd-story-image" alt="...">
+                <div class="wd-align">
+                    <label class="wd-font-story-category">Web Development </label><br>
+                    <label class="wd-font-story"> NodeJS </label> <i class="fa-check-circle fa" style="color: rgb(61,61,61)"></i>
+                    <label class="wd-font-story-category">- 2h</label><br>
+                    <label class="wd-font-story-category"> 123K Tuits </label>
+                </div>
+            </a>
+        </div>
     </div>
+
+
+<!--    Hyperlinks-->
 <!--    THIRD ROW      -->
-    <div class="col-3 bg-danger">
+    <div class="col-3">
         <div class="list-group rounded">
             <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
                 Who To Follow </a>
             <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
-                <div class="">
+                <button class="btn btn-primary btn-group-vertical wd-float-right">
+                    Follow
+                </button>
+                <div>
                     <img class="wd-profile-picture wd-float-left" src="../images/java-logo.png" style="color: rgb(61,61,61)">
                     <div class="wd-font-profile-name">
                         Java <i class="fa-check-circle fa" style="color: rgb(61,61,61)"></i>
@@ -56,6 +140,9 @@
             </a>
             <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
                 <div class="">
+                    <button class="btn btn-primary btn-group-vertical wd-float-right">
+                        Follow
+                    </button>
                     <img class="wd-profile-picture wd-float-left" src="../images/relativity-logo.webp" style="color: rgb(61,61,61)">
                     <div class="wd-font-profile-name">
                         Relativity Space <i class="fa-check-circle fa" style="color: rgb(61,61,61)"></i>
@@ -65,6 +152,9 @@
             </a>
             <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
                 <div class="">
+                    <button class="btn btn-primary btn-group-vertical wd-float-right">
+                        Follow
+                    </button>
                     <img class="wd-profile-picture wd-float-left" src="../images/virgin-logo.svg" style="color: rgb(61,61,61)">
                     <div class="wd-font-profile-name">
                         Virgin Galactic <i class="fa-check-circle fa" style="color: rgb(61,61,61)"></i>
@@ -74,6 +164,9 @@
             </a>
             <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
                 <div class="">
+                    <button class="btn btn-primary btn-group-vertical wd-float-right">
+                        Follow
+                    </button>
                     <img class="wd-profile-picture wd-float-left" src="../images/nasa-logo.webp" style="color: rgb(61,61,61)">
                     <div class="wd-font-profile-name">
                         NASA <i class="fa-check-circle fa" style="color: rgb(61,61,61)"></i>
@@ -83,6 +176,9 @@
             </a>
             <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
                 <div class="">
+                    <button class="btn btn-primary btn-group-vertical wd-float-right">
+                        Follow
+                    </button>
                     <img class="wd-profile-picture wd-float-left" src="../images/tesla-logo.png" style="color: rgb(61,61,61)">
                     <div class="wd-font-profile-name">
                         Tesla <i class="fa-check-circle fa" style="color: rgb(61,61,61)"></i>
