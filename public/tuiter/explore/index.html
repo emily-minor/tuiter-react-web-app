@@ -4,84 +4,208 @@
     <meta charset="UTF-8">
     <title>Explore</title>
     <link href="../../vendors/bootstrap/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="../../vendors/fontawesome-free-5.15.4-web/css/fontawesome.min.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet"/>
     <link href="index.css"
           rel="stylesheet"/>
 </head>
+<body class="wd-margins">
+<div class="row">
+    <!--    FIRST ROW-->
+    <div class="col-2">
+        <div class="list-group rounded wd-vertically-centered">
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <i class="fab fa-twitter" style="color: rgb(61,61,61)"></i></a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <div>
+                    <i class="fa-home fa wd-float-left wd-icon" style="color: rgb(61,61,61)"></i>
+                    <span class="d-none d-xl-block wd-float-left"> Home</span>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action active">
+                <i class="fa-hashtag fa fa-inverse wd-float-left wd-icon"></i>
+                <span class="d-none d-xl-block wd-float-left"> Explore</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <i class="fa-bell fa wd-float-left wd-icon" style="color: rgb(61,61,61)"></i>
+                <span class="d-none d-xl-block wd-float-left">Notifications </span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <i class="fa-envelope fa wd-float-left wd-icon" style="color: rgb(61,61,61)"></i>
+                <span class="d-none d-xl-block wd-float-left">Messages </span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <i class="fa-bookmark fa wd-float-left wd-icon" style="color: rgb(61,61,61)"></i>
+                <span class="d-none d-xl-block wd-float-left">Bookmarks </span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <i class="fa-list fa wd-float-left wd-icon" style="color: rgb(61,61,61)"></i>
+                <span class="d-none d-xl-block wd-float-left">Lists</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <i class="fa-user fa wd-float-left wd-icon" style="color: rgb(61,61,61)"></i>
+                <span class="d-none d-xl-block wd-float-left">Profile</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action rounded-bottom wd-font-dimgray">
+                <i class="fa-ellipsis-h fa wd-float-left wd-icon" style="color: rgb(61,61,61)"></i>
+                <span class="d-none d-xl-block wd-float-left">More</span>
+            </a>
+            <button class="btn btn-primary wd-override-tuit-button">
+                Tuit
+            </button>
+        </div>
+    </div>
+    <!--    SECOND ROW     -->
+    <!--    Searchbar-->
+    <div class="col-7">
+        <div>
+            <input class="wd-searchBar"
+                   type="text"
+                   placeholder="Search Tuiter"
+                   id="text-fields-search"/>
+            <h3><a href="#"><i class="fa-cog fa wd-float-right wd-nudge-down" style="color:dodgerblue"></i></a></h3>
+        </div>
+        <br> <br> <br>
+        <div class="t">
+            <ul class="nav nav-pills">
+                <li class="nav-item wd-border-active">
+                    <a class="nav-link wd-font-dimgray" href="#">For You</a>
+                </li>
+                <li class="nav-item wd-border-inactive">
+                    <a class="nav-link wd-font-blue" href="#"> Trending </a>
+                </li>
+                <li class="nav-item wd-border-inactive">
+                    <a class="nav-link wd-font-blue" href="#"> News</a>
+                </li>
+                <li class="nav-item wd-border-inactive">
+                    <a class="nav-link wd-font-blue" href="#"> Sports</a>
+                </li>
+                <li class="nav-item wd-border-inactive">
+                    <a class="nav-link wd-font-blue d-none d-lg-flex" href="#"> Entertainment</a>
+                </li>
+            </ul>
+        </div>
+        <div class="">
+            <div class="wd-card-img-larger container">
+                <img src="../../tuiter/images/starship.webp"
+                     class="card-img-top wd-card-img-larger" alt="...">
+                <div class="bottom-left">
+                    <h5 class="card-title text-white">SpaceX's Starship</h5>
+                </div>
+            </div>
+        </div>
+        <div class="list-group rounded">
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <img src="../../tuiter/images/reactlogo.png"
+                     class="wd-float-right wd-story-image" alt="...">
+                <div class="wd-align">
+                    <label class="wd-font-story-category"> Web Development </label><br>
+                    <label class="wd-font-story"> ReactJS <i class="fa-check-circle fa" style="color: rgb(61,61,61)"></i></label>
+                    <label class="wd-font-story-category">- 2h</label><br>
+                    <label class="wd-font-story"> React.js is a component based front end library that makes it very easy to build
+                        Single Page Applications or SPAs. </label>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <img src="../../tuiter/images/javascript-logo.png"
+                     class="wd-float-right wd-story-image" alt="...">
+                <div class="wd-align">
+                    <label class="wd-font-story"> Javascript <i class="fa-check-circle fa" style="color: rgb(61,61,61)"></i></label>
+                    <label class="wd-font-story-category">- 2h</label><br>
+                    <label class="wd-font-story"> Javascript is a programming language that can run on browsers as well as desktops. </label> <br>
+                    <label class="wd-font-story-category"> 123K Tuits </label>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <img src="../../tuiter/images/jquery-logo.png"
+                     class="wd-float-right wd-story-image" alt="...">
+                <div class="wd-align">
+                    <label class="wd-font-story-category">Web Development </label><br>
+                    <label class="wd-font-story"> jQuery </label> <br>
+                    <label class="wd-font-story-category"> 123K Tuits </label>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <img src="../../tuiter/images/nodejs-logo.webp"
+                     class="wd-float-right wd-story-image" alt="...">
+                <div class="wd-align">
+                    <label class="wd-font-story-category">Web Development </label><br>
+                    <label class="wd-font-story"> NodeJS </label> <i class="fa-check-circle fa" style="color: rgb(61,61,61)"></i>
+                    <label class="wd-font-story-category">- 2h</label><br>
+                    <label class="wd-font-story-category"> 123K Tuits </label>
+                </div>
+            </a>
+        </div>
+    </div>
 
-<body class="wd-padding">
-<!--Searchbar-->
-<div class="wd-border-search-bar">
-    <label id=searchbar">
-        <input class="wd-searchBar"
-                                       type="text"
-                                       placeholder="Search Tuiter"
-                                       id="text-fields-search"/>
-            <a class="wd-searchGear" href="explore-settings.html"><img class="wd-searchGear" src="../images/gear.png" /></a>
-    </label>
-    <!-- Set of hyperlinks -->
-    <label id=subcategory-bar"  class="wd-below wd-font">
-        <a class="wd-select wd-link" href="/index.html">For You</a>
-        <a class="wd-not-selected wd-link" href="/trending.html">Trending</a>
-        <a class="wd-not-selected wd-link" href="/COVID-19.html">COVID-19</a>
-        <a class="wd-not-selected wd-link" href="/News.html">News</a>
-        <a class="wd-not-selected wd-link" href="/Sports.html">Sports</a>
-        <a class="wd-not-selected wd-link" href="/Entertainment.html">Entertainment</a>
-    </label>
-</div>
-<!--Trends -->
-<div>
-    <label id="trending categories" class=" wd-trend-subject-font">
-        <div class="wd-border">
-            Trending in Science<br>
-            <label class="wd-trending-font"> Starship </label> <br>
-            55.5k Tuits<br>
-            <br>
-        </div>
-        <div class="wd-border">
-            Sports * Trending<br>
-            <label class="wd-trending-font"> Football </label> <br>
-            5,218 Tuits<br>
-            <br>
-        </div>
-        <div class="wd-border">
-            Trending in United States<br>
-            <label class="wd-trending-font"> Wonderbread </label><br>
-            1,259 Tuits<br>
-            <br>
-        </div>
-    </label>
-</div>
-<!--Suggested posts -->
-<div>
-    <label id="suggested posts" class="wd-author-font">
-        <div class="wd-border-with-image">
-            <img class="wd-float-right wd-news-image" src="../images/sudoku.png" />
-            The New York Times<br>
-            <label class="wd-author-font"> All Sudoku Problems Ranked: You won't believe which is number 1!</label> <br>
-        </div>
-        <div class="wd-border-with-image">
-            <img class="wd-float-right wd-news-image" src="../images/kitten.webp" />
 
-            The Onion <br>
-            <label class="wd-author-font">Kitten Thinks Of Nothing But Murder All Day </label>
+    <!--    Hyperlinks-->
+    <!--    THIRD ROW      -->
+    <div class="col-3 d-none d-lg-block">
+        <div class="list-group rounded">
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                Who To Follow </a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <button class="btn btn-primary btn-group-vertical wd-float-right">
+                    Follow
+                </button>
+                <div>
+                    <img class="wd-profile-picture wd-float-left" src="../images/java-logo.png" style="color: rgb(61,61,61)">
+                    <div class="wd-font-profile-name">
+                        Java <i class="fa-check-circle fa" style="color: rgb(61,61,61)"></i>
+                    </div>
+                    <div class="wd-font-username"> @Java </div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <div class="">
+                    <button class="btn btn-primary btn-group-vertical wd-float-right">
+                        Follow
+                    </button>
+                    <img class="wd-profile-picture wd-float-left" src="../images/relativity-logo.webp" style="color: rgb(61,61,61)">
+                    <div class="wd-font-profile-name">
+                        Relativity Space <i class="fa-check-circle fa" style="color: rgb(61,61,61)"></i>
+                    </div>
+                    <div class="wd-font-username"> @relativityspace </div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <div class="">
+                    <button class="btn btn-primary btn-group-vertical wd-float-right">
+                        Follow
+                    </button>
+                    <img class="wd-profile-picture wd-float-left" src="../images/virgin-logo.svg" style="color: rgb(61,61,61)">
+                    <div class="wd-font-profile-name">
+                        Virgin Galactic <i class="fa-check-circle fa" style="color: rgb(61,61,61)"></i>
+                    </div>
+                    <div class="wd-font-username"> @virgingalactic </div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <div class="">
+                    <button class="btn btn-primary btn-group-vertical wd-float-right">
+                        Follow
+                    </button>
+                    <img class="wd-profile-picture wd-float-left" src="../images/nasa-logo.webp" style="color: rgb(61,61,61)">
+                    <div class="wd-font-profile-name">
+                        NASA <i class="fa-check-circle fa" style="color: rgb(61,61,61)"></i>
+                    </div>
+                    <div class="wd-font-username"> @NASA </div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action wd-font-dimgray">
+                <div class="">
+                    <button class="btn btn-primary btn-group-vertical wd-float-right">
+                        Follow
+                    </button>
+                    <img class="wd-profile-picture wd-float-left" src="../images/tesla-logo.png" style="color: rgb(61,61,61)">
+                    <div class="wd-font-profile-name">
+                        Tesla <i class="fa-check-circle fa" style="color: rgb(61,61,61)"></i>
+                    </div>
+                    <div class="wd-font-username"> @Tesla </div>
+                </div>
+            </a>
         </div>
-    </label>
-</div>
-<!--Topic Posts-->
-<div>
-    <label id="topic posts" class=" wd-author-font">
-        <div class="wd-border-with-image">
-            <img class="wd-float-right wd-news-image" src="../images/dirt.webp" />
-            <label class="wd-font"> News <br> </label>
-            Dirt: After 75 Years, Why It’s Still One Of The Top Destinations For Bugs <br>
-        </div>
-        <div class="wd-border-with-image">
-            <img class="wd-float-right wd-news-image" src="../images/movietheatre.webp" />
-            <label class="wd-font"> Entertainment <br> </label>
-             What New Movies Are Coming Out Soon? <br>
-        </div>
-    </label>
+    </div>
 </div>
 
 </body>

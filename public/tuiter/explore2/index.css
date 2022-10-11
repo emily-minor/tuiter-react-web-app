@@ -140,7 +140,7 @@
 }
 
 .wd-card-img-larger {
-    width: 104.5%;
+    width: 103%;
     right: 25px;
     margin-top: 5px;
 }
@@ -148,4 +148,10 @@
 .wd-align {
     text-align: left;
     overflow: hidden;
+}
+
+.wd-icon {
+    vertical-align: bottom;
+    margin-right: 6px;
+    font-size: large;
 }
