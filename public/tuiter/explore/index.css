@@ -18,6 +18,15 @@
 
 .wd-font-dimgray {
     color: rgb(61,61,61);
+    font-size: small;
+}
+.wd-font-blue {
+    color: dodgerblue;
+    font-size: small;
+}
+
+.wd-font-small {
+    font-size: small;
 }
 
 .wd-profile-picture {
@@ -82,10 +91,6 @@
 
 .wd-nudge-down {
     margin-top: 10px;
-}
-
-.wd-font-blue {
-    color: dodgerblue;
 }
 
 .wd-border-active {
