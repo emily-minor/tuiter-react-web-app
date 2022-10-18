@@ -1,121 +1,162 @@
-html {background-color: black}
-
-.wd-font {
-    color: darkgray;
-    font-family: "Helvetica Neue";
-    size: 12px;
+.wd-margins {
+    padding: 20px;
 }
 
-.wd-suggested-post-font {
-    color: darkgray;
-    font-family: "Helvetica Neue";
-    size: 12px;
+.wd-margins-right {
+    margin-right: 16px;
 }
-.wd-border{
-    border-color: rgb(47, 51, 54);
-    border-style: solid;
-    border-width: 1px;
-    padding-left: 16px;
-    padding-top: 16px;
+
+.wd-margins-top {
+    margin-top: 16px;
+}
+
+.wd-override-tuit-button {
+    margin-top: 8px;
+    border-radius: 48px;
 
 }
 
-.wd-border-search-bar{
-    border-color: rgb(47, 51, 54);
-    border-style: solid;
-    border-width: 1px;
-    padding-left: 16px;
-    padding-top: 16px;
-    padding-bottom: 70px;
-    border-bottom-width: 10px;
+.wd-font-dimgray {
+    color: rgb(61,61,61);
+    font-size: small;
+}
+.wd-font-blue {
+    color: dodgerblue;
+    font-size: small;
 }
 
-.wd-border-with-image{
-    border-color: rgb(47, 51, 54);
-    border-style: solid;
-    border-width: 1px;
-    padding-left: 16px;
-    padding-top: 16px;
-    padding-bottom: 90px
+.wd-font-small {
+    font-size: small;
 }
 
-.wd-padding {
-    padding-left: 16px;
+.wd-profile-picture {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 5px;
 }
 
+.wd-auto-overflow {
+    overflow: auto;
+}
+
+.wd-font-profile-name {
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.wd-font-story {
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.wd-font-story-category {
+    font-size: 14px;
+    color: dimgray;
+
+}
+
+.wd-font-username {
+    font-size: 12px;
+}
+
+.wd-float-left {
+    float: left;
+}
+.wd-float-right {
+    float: right;
+}
 .wd-searchBar {
-    background-color: RGB(47, 51, 54);
-    color: darkgray;
+    color: rgb(61,61,61);
     padding-left: 60px;
-    padding-right: 40%;
-    /*padding-right: 275px;*/
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 35%;
     border-radius: 50px;
     font-family: "Helvetica Neue";
     font-size: 16px;
     position: absolute;
+    /*border-image-width: 1px;*/
+    border-color: darkgray;
+    border-style: solid;
+    border-width: 1px;
+    background-image: url(https://www.citypng.com/public/uploads/small/11640084027eqwauegwzmhrbniaualprqoe4jj2jguwobj2t6vnixim3yf2w8xzbb5jdksvrcemxwzv9ncnqzadnjtmwf6eqpadmrmarzhefgxf.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: 2% 40%;
 }
 
-/*.wd-searchGear {*/
-/*    position: relative;*/
-/*    left:265px;*/
-/*    top: 4px;*/
-/*    width: 30px;*/
-/*    height: 30px;*/
-/*}*/
-.wd-searchGear {
-    position: relative;
-    right:12px;
-    width: 30px;
-    height: 30px;
-    float: right;
-}
-.wd-trending-font {
-    font-weight: bold;
-    color: darkgray;
-    font-family: "Helvetica Neue";
-    size: 12px;
-}
-.wd-author-font {
-    color: white;
-    font-family: "Helvetica Neue";
-    size: 12px;
+.wd-nudge-down {
+    margin-top: 10px;
 }
 
-.wd-trend-subject-font {
-    size: 13px;
-    color: rgb(110, 118, 125);
-    font-family: "Helvetica Neue";
+.wd-border-active {
+    border-top: darkgray;
+    border-left: darkgray;
+    border-right: darkgray;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-.wd-below {
-    position: relative;
-    top: 50px;
-}
-.wd-link {
-    font-size: 15px;
-    padding: 16px;
-    text-decoration: none;
-}
-.wd-select {
-    color: rgb(29, 161, 242);
-    border-bottom-width: 4px;
-    border-bottom-color: rgb(29, 161, 242);
+.wd-border-inactive {
+    border-bottom: darkgray;
     border-bottom-style: solid;
+    border-width: 1px;
+
 }
 
-.wd-not-selected {
-    color: rgb(110, 118, 125);
+.wd-vertically-centered {
+    vertical-align: center;
 }
 
-.wd-news-image {
+.container {
+    position: relative;
+    text-align: center;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 36px;
+}
+
+.wd-nudge-left {
+    right:24px;
+}
+
+.wd-nudge-right {
+    left:24px;
+}
+
+.wd-story-image {
     width: 100px;
     height: 100px;
-    margin-right: 16px;
-    border-radius: 15px;
-    object-fit: cover
+    border-radius: 5px;
+    object-fit: cover;
+    margin-left: 5px;
 }
-.wd-float-right {
-    float: right;
+
+.wd-card-img-larger {
+    width: 103%;
+    right: 25px;
+    margin-top: 5px;
+}
+
+.wd-align {
+    text-align: left;
+    overflow: hidden;
+}
+
+.wd-icon {
+    vertical-align: bottom;
+    margin-right: 6px;
+    font-size: large;
 }
