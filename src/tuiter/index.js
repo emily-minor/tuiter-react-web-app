@@ -4,6 +4,7 @@ import NavigationSidebar
 import WhoToFollowListItem
     from "./who-to-follow-list/index";
 import PostSummaryItem from "./post-summary-list/post-summary-item";
+import ExploreComponent from "./explore";
 
 function Tuiter() {
     return (
@@ -11,8 +12,7 @@ function Tuiter() {
             <Nav/>
             <NavigationSidebar active="home"/>
             <WhoToFollowListItem/>
-            <PostSummaryItem/>
-
+            <ExploreComponent/>
 
             <h1>Tuiter</h1>
         </div>
