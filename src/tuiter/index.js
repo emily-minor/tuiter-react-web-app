@@ -11,7 +11,7 @@ function Tuiter() {
             <Nav/>
             <NavigationSidebar active="home"/>
             <WhoToFollowListItem/>
-            {/*<PostSummaryItem/>*/}
+            <PostSummaryItem/>
 
 
             <h1>Tuiter</h1>
